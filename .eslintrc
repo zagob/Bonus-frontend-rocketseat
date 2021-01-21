@@ -1,5 +1,5 @@
 {
-    "parse": "babel-eslint",
+    "parser": "babel-eslint",
     "extends": "airbnb",
     "env": {
         "browser": true,
@@ -14,5 +14,13 @@
             }
         ],
         "import/prefer-default-export": "off"
+    },
+    "settings": {
+        "import/resolver": {
+            "babel-plugin-root-import": {
+                "rootPathPrefix": "~",
+                "rootPathSuffix": "src"
+            }
+        }
     }
 }
