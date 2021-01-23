@@ -14,7 +14,9 @@
             }
         ],
         "import/prefer-default-export": "off",
-        "linebreak-style": "off"
+        "linebreak-style": "off",
+        "import/extensions": "off",
+        "react/static-property-placement": "off"
     },
     "settings": {
         "import/resolver": {
